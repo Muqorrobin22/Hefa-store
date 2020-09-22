@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="fontawesome/all.css">
+    <!-- Google font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@200;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- slick -->
+    <link rel="stylesheet" href="slick/slick.css">
+
+    <!-- My CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>AM Store</title>
+</head>
+
+<body>
+
+
+    <!-- header cart -->
+    <div class="container">
+        <div class="row ">
+            <div class="col cart-header text-center my-5">
+                <h3>Your Cart</h3>
+                <p>Pastikan Barang Anda Terbayar Lunas</p>
+            </div>
+        </div>
+    </div>
+    <!-- header cart -->
+
+    <!-- breadcump -->
+
+    <div class="container">
+        <nav class="">
+            <ol class="breadcrumb bg-transparent pl-0 cart-breadcrump">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Cart Checkout</li>
+            </ol>
+        </nav>
+    </div>
+
+    <!-- Akhir Breadcrump -->
+
+    <!-- content -->
+
+    <div class="container">
+        <div class="row justify-content-between" style="margin-bottom: 150px;">
+            <div class="col-lg-6">
+                <h4 class="mb-4 mt-3" style="font-weight: bold;">Your Items</h4>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img src="img/cart/1.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <h4 style="font-size: 18; font-weight: bold;">Jeans Pupp</h4>
+                        <p style="color: #B7B7B7; font-weight: 200;">IDR 280.000.100</p>
+                    </div>
+                    <div class="col-4">
+                        <div class="button-plus-minus-cart">
+                            <button type="button" class="btn btn-md" style="background-color: #EAEAEF; color: white;"><i
+                                    class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">20</span>
+                            <button type="button" class="btn btn-md btn-success" style=" color: white;"><i
+                                    class="fas fa-plus-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <button type="button" class="btn btn-md btn-danger" style=" color: white;"><i
+                                class="fas fa-times-circle"></i></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="img/cart/1.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <h4 style="font-size: 18; font-weight: bold;">Jeans Pupp</h4>
+                        <p style="color: #B7B7B7; font-weight: 200;">IDR 280.000.100</p>
+                    </div>
+                    <div class="col-4">
+                        <div class="button-plus-minus-cart">
+                            <button type="button" class="btn btn-md" style="background-color: #EAEAEF; color: white;"><i
+                                    class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">20</span>
+                            <button type="button" class="btn btn-md btn-success" style=" color: white;"><i
+                                    class="fas fa-plus-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <button type="button" class="btn btn-md btn-danger" style=" color: white;"><i
+                                class="fas fa-times-circle"></i></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="img/cart/1.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <h4 style="font-size: 18; font-weight: bold;">Jeans Pupp</h4>
+                        <p style="color: #B7B7B7; font-weight: 200;">IDR 280.000.100</p>
+                    </div>
+                    <div class="col-4">
+                        <div class="button-plus-minus-cart">
+                            <button type="button" class="btn btn-md" style="background-color: #EAEAEF; color: white;"><i
+                                    class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">20</span>
+                            <button type="button" class="btn btn-md btn-success" style=" color: white;"><i
+                                    class="fas fa-plus-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <button type="button" class="btn btn-md btn-danger" style=" color: white;"><i
+                                class="fas fa-times-circle"></i></button>
+                    </div>
+                </div>
+
+                <h4 style="font-weight: bold; margin-top: 70px;" class="mb-4">Your Address</h4>
+
+                <!-- form -->
+
+                <form>
+                    <div class="form-group">
+                        <label for="alamat">Alamat</label>
+                        <input type="text" class="form-control" id="alamat" placeholder="Alamat lengkap">
+                    </div>
+                    <div class="form-group">
+                        <label for="alamat2">Alamat II</label>
+                        <input type="text" class="form-control" id="alamat2" placeholder="Alamat tambahan">
+                    </div>
+                    <div class="form-group">
+                        <label for="alamat">City</label>
+                        <select class="custom-select">
+                            <option selected>Gresik</option>
+                            <option value="1">Lamongan</option>
+                            <option value="2">Surabaya</option>
+                            <option value="3">Pasuruan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="alamat">Country</label>
+                        <select class="custom-select">
+                            <option selected>Indonesia</option>
+                            <option value="1">Singapore</option>
+                            <option value="2">Malaysia</option>
+                            <option value="3">Thailand</option>
+                        </select>
+                    </div>
+                </form>
+
+                <!-- akhir form -->
+
+            </div>
+
+            <!-- colom kanan -->
+
+            <div class="col-lg-5">
+                <div class="card rounded-0 cart-card">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold;">Informasi Biaya</h5>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <h6>Jeans Pupp</h6>
+                                <small style="font-size: 14; font-weight: 200;">2 Items</small>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <h6 class="text-success align-self-center" style="font-weight: bold;">IDR 600.000</h6>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <h6>Rockie</h6>
+                                <small style="font-size: 14; font-weight: 200;">1 Items</small>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <h6 class="text-success align-self-center" style="font-weight: bold;">IDR 200.000</h6>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row mb-3">
+                            <div class="col">
+                                <h6>Courier</h6>
+                                <small style="font-size: 14; font-weight: 200;">JNE Express</small>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <h6 class="text-success align-self-center" style="font-weight: bold;">IDR 40.000</h6>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col">
+                                <h6>Tax</h6>
+                                <small style="font-size: 14; font-weight: 200;">Negara 2,5%</small>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <h6 class="text-success align-self-center" style="font-weight: bold;">IDR 50.000</h6>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col">
+                                <h6>Eid Promo</h6>
+                                <small style="font-size: 14; font-weight: 200;">2 Items</small>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <h6 class="text-danger align-self-center" style="font-weight: bold;">IDR 50.000</h6>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3 mt-5">
+                            <div class="col">
+                                <h6 style="font-weight: bold;">Total Harga</h6>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <h6 class="text-success align-self-center" style="font-weight: bold;">IDR 840.000</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col">
+                        <a href="category.html" class="btn btn-block"
+                            style="font-weight: bold; background-color: #F6F7FB;color: #958C8C; ">
+                            Cancel
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="" class="btn btn-block text-white" style="background-color:#F9B234;"
+                            data-toggle="modal" data-target="#checkoutModal">
+                            Checkout
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- akhir kolom kanan -->
+        </div>
+    </div>
+
+    <!-- Akhir content -->
+
+    <!-- Modal -->
+    <div class="modal fade checkout-success-modal" id="checkoutModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content text-center">
+                <div class="modal-body">
+                    <img src="img/cart/succes-chechout.png" alt="">
+                    <h3 style="margin-top: 70px;">Checkout Berhasil</h3>
+                    <p>Anda akan mendapatkan barang <br> anda dalam beberapa hari</p>
+                    <button type="button" class="btn"
+                        style="font-weight: bold; background-color: #F6F7FB;color: #958C8C; margin-top: 50px;"
+                        data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- akhir modal -->
+
+
+    <!-- Footer -->
+
+    <footer class="bg-light border-top p-5 mt-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <img src="img/Logo small.png" alt="" class="">
+                </div>
+
+                <div class="col-6 text-right m-3">
+                    <a href="" class="">
+                        <img src="img/social/facebook.png" alt="">
+                    </a>
+                    <a href="" class="">
+                        <img src="img/social/twitter.png" alt="">
+                    </a>
+                    <a href="" class="">
+                        <img src="img/social/instagram.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row justify-content-between">
+                <div class="col-5 mt-4 justify-content-start">
+                    <p>All Right Reversed By AM Store Copyright 2020</p>
+                </div>
+                <div class="col-7 mt-3 mt-sm-4">
+                    <nav class="nav  justify-content-end text-uppercase">
+                        <a class="nav-link active" href="#">Jobs</a>
+                        <a class="nav-link" href="#">Developper</a>
+                        <a class="nav-link" href="#">Terms</a>
+                        <a class="nav-link p-xs-0" href="#">Privacy</a>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+    <!-- Slick -->
+    <script src="slick/slick.min.js"></script>
+    <script src="slick/slick.js"></script>
+    <!-- akhir slick -->
+
+    <script src="fontawesome/all.js"></script>
+
+</body>
+
+</html>
